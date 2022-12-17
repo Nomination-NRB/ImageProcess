@@ -67,15 +67,15 @@ src
 │           ├─ index.vue
 │           └─ options
 ├─ main.js
-├─ router								//注册路由
+├─ router							//注册路由
 │    └─ index.js
 ├─ utils
 │    └─ request.js						//前端请求封装
 └─ views
        └─ home
               ├─ components
-              │    ├─ panel.vue			//操作盘vue
-              │    └─ processView.vue	//处理视图vue
+              │    ├─ panel.vue			       //操作盘vue
+              │    └─ processView.vue	              //处理视图vue
               └─ index.vue
 ```
 
@@ -88,21 +88,21 @@ DjangoRestframewor
 ├─ api
 │    ├─ models.py						//数据库表的定义
 │    ├─ serializers.py					//处理数据的序列化器
-│    ├─ urls.py							//将接口注册到路由中
+│    ├─ urls.py						//将接口注册到路由中
 │    └─ views.py						//各个视图集操作前端传入的数据进行处理
 ├─ db.sqlite3							//Django自带的数据库
 ├─ lib
 │    ├─ manage
-│    │    └─ imageProcess.py			//图像处理函数
+│    │    └─ imageProcess.py			       //图像处理函数
 │    └─ utils
-│         └─ json_response.py			//返回定制的json数据格式
-├─ log									//运行日志
+│         └─ json_response.py			       //返回定制的json数据格式
+├─ log								//运行日志
 │    ├─ all.log
 │    ├─ error.log
 │    └─ script.log
 ├─ manage.py
-├─ media								//本地存放的图片路径
-│    └─ images							//处理的图片路径
+├─ media							//本地存放的图片路径
+│    └─ images						//处理的图片路径
 │           ├─ grass1.jpg
 │           ├─ grass1_1475Amh.jpg
 │           ├─ grass1_tAABlwO.jpg
@@ -110,8 +110,8 @@ DjangoRestframewor
 │                ├─ grass1.jpg
 │                └─ warma4_mt9yOn0.jpg
 ├─ python_dip_courseproject_django
-│    ├─ settings.py 					//项目的各种配置
-│    └─ urls.py							//项目的总路由
+│    ├─ settings.py 					       //项目的各种配置
+│    └─ urls.py						//项目的总路由
 └─ requirements.txt						//项目所需的依赖包
 ```
 
