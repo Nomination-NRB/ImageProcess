@@ -132,6 +132,14 @@ pip install -r requirements.txt
 ```
 
 - 启动后端
+
+  - 迁移数据库
+
+  ```bash
+  python manage.py makemigrations
+  python manage.py migrate
+  ```
+
   - 确保当前路径在后端项目DjangoRestframework文件夹下，且有manage.py文件
 
 ```bash
