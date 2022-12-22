@@ -13,7 +13,7 @@
 
 ## 基本功能
 
-- class_name：在Django的api/models.py中实现，对应每个接口所调用的处理操作
+- class_name：在Django的api/views.py中实现，对应每个接口所调用的处理操作
 - function_parameters：前端所传的参数
 - parameters_help：参数，类型的解释
 
